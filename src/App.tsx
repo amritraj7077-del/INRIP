@@ -89,10 +89,6 @@ export default function App() {
     setCurrentView('register');
   }, []);
 
-  const handleBackToHome = useCallback(() => {
-    setCurrentView('landing');
-  }, []);
-
   const handleBackToLanding = useCallback(() => {
     setCurrentView('landing');
   }, []);

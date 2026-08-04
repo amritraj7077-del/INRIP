@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Search, Brain, Sparkles, FileText, ChevronDown, ArrowDown } from 'lucide-react';
+import { Search, Brain, Sparkles, FileText, ChevronDown } from 'lucide-react';
 
 export const SolutionsSection = () => {
   const steps = [

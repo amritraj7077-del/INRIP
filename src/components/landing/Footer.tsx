@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { X, Mail, Globe, ExternalLink, Share2 } from 'lucide-react';
 
 export const Footer = () => {
