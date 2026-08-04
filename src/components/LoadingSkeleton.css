@@ -1,0 +1,44 @@
+.loading-skeleton {
+  padding: 16px;
+  background-color: rgba(44, 62, 80, 0.95);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.skeleton-text {
+  height: 16px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  background-size: 200% 100%;
+  border-radius: 4px;
+  animation: shimmer 1.5s infinite;
+}
+
+.skeleton-title {
+  height: 20px;
+  margin-bottom: 12px;
+  width: 60%;
+}
+
+.skeleton-line {
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.skeleton-line-short {
+  width: 40%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
